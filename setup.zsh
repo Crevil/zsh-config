@@ -40,7 +40,7 @@ alias sr="shuttle run"
 alias h="hamctl"
 alias editenv="code ~/.zsh-custom"
 
-alias dpostgres="docker run --rm -p 5432:5432 -e POSTGRES_USER=lunarway timms/postgres-logging:9.6"
+alias dpostgres="docker run --rm -p 5432:5432 -e POSTGRES_USER=lunarway timms/postgres-logging:11.5"
 alias drabbit="docker run --rm --hostname rabbitmq -p 5672:5672 -p 80:15672 -e RABBITMQ_DEFAULT_USER=lunarway -e RABBITMQ_DEFAULT_PASS=lunarway rabbitmq:3-management"
 
 export PROTO_PATH="$GOPATH/src/bitbucket.org/LunarWay/lw-grpc/protos"
