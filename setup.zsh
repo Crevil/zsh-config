@@ -5,6 +5,9 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="$GOBIN:$PATH"
 export PATH="$PATH:$HOME/.linkerd2/bin"
 export PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH"
+export PATH="/Applications/apache-jmeter/bin:$PATH"
+
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 export CDPATH="$HOME/repo/goLibs:$CDPATH"
 export CDPATH="$HOME/repo/nodeLibs:$CDPATH"
