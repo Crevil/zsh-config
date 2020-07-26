@@ -1,24 +1,16 @@
 export GOPATH="$HOME/go"
 export GOBIN="$GOPATH/bin"
-export PATH="$HOME/.scripts:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="$GOBIN:$PATH"
-export PATH="$PATH:$HOME/.linkerd2/bin"
 export PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH"
-export PATH="/Applications/apache-jmeter/bin:$PATH"
 
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-export CDPATH="$HOME/repo/goLibs:$CDPATH"
-export CDPATH="$HOME/repo/nodeLibs:$CDPATH"
-export CDPATH="$HOME/repo/shuttlePlans:$CDPATH"
-export CDPATH="$HOME/repo:$CDPATH"
+export CDPATH="$HOME/lunar:$CDPATH"
 export CDPATH="$HOME/go/src/bitbucket.org/LunarWay:$CDPATH"
 export CDPATH="$HOME/go/src/github.com/lunarway:$CDPATH"
 export CDPATH="$HOME/go/src/github.com:$CDPATH"
 export CDPATH="$HOME/gitRepo:$CDPATH"
 export CDPATH="$HOME:$CDPATH"
-export LW_PATH="$HOME/repo"
+export LW_PATH="$HOME/lunar"
 
 export LOG_CONSOLE_AS_JSON=false
 export LOG_LEVEL=debug
