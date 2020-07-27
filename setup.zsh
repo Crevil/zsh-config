@@ -5,6 +5,7 @@ export PATH="$GOBIN:$PATH"
 export PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH"
 
 export CDPATH="$HOME/lunar:$CDPATH"
+export CDPATH="$HOME/lunar/goLibs:$CDPATH"
 export CDPATH="$HOME/go/src/bitbucket.org/LunarWay:$CDPATH"
 export CDPATH="$HOME/go/src/github.com/lunarway:$CDPATH"
 export CDPATH="$HOME/go/src/github.com:$CDPATH"
@@ -63,7 +64,7 @@ function egrpc() {
         --path "$PROTO_PATH/$package/$package.proto" \
         cli \
         call \
-        "$package.$service.$2" 
+        "$package.$service.$2"
 }
 
 
