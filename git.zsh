@@ -1,3 +1,3 @@
 alias gpushtags="git push && git push --tags"
-alias hb="hub browse"
-alias hc="hub compare"
+alias hb="gh repo view --web"
+alias hc="gh pr create --web"
