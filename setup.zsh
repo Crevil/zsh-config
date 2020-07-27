@@ -56,7 +56,14 @@ function egrpc() {
         return 1
     fi
 
-    evans --host localhost --port 9000 --package "$package" --service "$service" --call "$2" "$PROTO_PATH/$package/$package.proto"
+    evans \
+        --reflection \
+        --host localhost \
+        --port 9000 \
+        --path "$PROTO_PATH/$package/$package.proto" \
+        cli \
+        call \
+        "$package.$service.$2" 
 }
 
 
@@ -64,12 +71,13 @@ function get-events() {
     userId=$1
     eventName=$2
     echo "{ \"include_content_json\": true, \"user_id\": \"$userId\", \"event_name\": \"$eventName\" }" | evans \
+        --reflection \
         --host localhost \
         --port 9000 \
-        --package eventstore  \
-        --service EventStore \
-        --call GetEvents \
-        "$GOPATH/src/bitbucket.org/LunarWay/lw-grpc/protos/eventstore/eventstore.proto"
+        --path "$GOPATH/src/bitbucket.org/LunarWay/lw-grpc/protos/eventstore/eventstore.proto" \
+        cli \
+        call \
+        eventstore.EventStore.GetEvents
 }
 
 source ~/.zsh-custom/k8s.zsh
