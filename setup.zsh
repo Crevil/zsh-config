@@ -6,6 +6,7 @@ export PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH"
 
 export CDPATH="$HOME/lunar:$CDPATH"
 export CDPATH="$HOME/lunar/goLibs:$CDPATH"
+export CDPATH="$HOME/lunar/nodeLibs:$CDPATH"
 export CDPATH="$HOME/go/src/bitbucket.org/LunarWay:$CDPATH"
 export CDPATH="$HOME/go/src/github.com/lunarway:$CDPATH"
 export CDPATH="$HOME/go/src/github.com:$CDPATH"
