@@ -5,6 +5,7 @@ alias kp="kubectl --namespace prod"
 alias kdev="k8s dev"
 alias kstaging="k8s staging"
 alias kprod="k8s prod"
+alias kplatform="k8s platform"
 
 alias wd="watch -n2 kubectl --namespace dev"
 alias ws="watch -n2 kubectl --namespace staging"

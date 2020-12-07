@@ -3,6 +3,7 @@ export GOBIN="$GOPATH/bin"
 export PATH="/usr/local/bin:$PATH"
 export PATH="$GOBIN:$PATH"
 export PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH"
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 export CDPATH="$HOME/lunar:$CDPATH"
 export CDPATH="$HOME/lunar/goLibs:$CDPATH"
