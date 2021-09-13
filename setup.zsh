@@ -36,6 +36,7 @@ export MOCK_LOCALIZATION_ENABLE=true
 alias s="shuttle"
 alias sr="shuttle run"
 alias h="hamctl"
+alias t="terraform"
 alias editenv="code ~/.zsh-custom"
 alias editzplug="code ~/.zplug/repos/lunarway/lw-zsh"
 alias cdzplug="cd ~/.zplug/repos/lunarway/lw-zsh"
