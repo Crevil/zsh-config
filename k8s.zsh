@@ -33,11 +33,11 @@ function k-forward() {
 }
 
 function kd-sanity() {
-    kd-exec $(kd-s sanity | awk '{print $1;}') bash
+    kd-exec $(kd-s sanity | awk '{print $1;}') -- bash
 }
 function ks-sanity() {
-    ks-exec $(ks-s sanity | awk '{print $1;}') bash
+    ks-exec $(ks-s sanity | awk '{print $1;}') -- bash
 }
 function kp-sanity() {
-    kp-exec $(kp-s sanity | awk '{print $1;}') bash
+    kp-exec $(kp-s sanity | awk '{print $1;}') -- bash
 }
