@@ -29,7 +29,6 @@ export PSQLRC="$HOME/.psqlrc"
 export RABBITMQ_HOST=localhost
 export RABBITMQ_USER=lunarway
 export RABBITMQ_PASSWORD=lunarway
-export RABBITMQ_PREFIX=local-k8s
 export RABBITMQ_VHOST=/
 
 export MOCK_LOCALIZATION_ENABLE=true
