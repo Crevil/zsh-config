@@ -11,7 +11,7 @@ alias l="ls -la"
 alias t="terraform"
 alias editenv="code ~/zsh-config"
 
-eval "$(direnv hook bash)"
+eval "$(direnv hook zsh)"
 
 source ~/zsh-config/git.zsh
 source ~/zsh-config/aws.zsh
