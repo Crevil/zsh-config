@@ -3,6 +3,9 @@ export CDPATH="$HOME:$CDPATH"
 
 export GOPATH="$HOME/go"
 
+# sprt
+export PATH="$HOME/.local/bin:$PATH"
+
 export SAVEHIST=10000
 export HISTSIZE=10000
 
