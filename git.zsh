@@ -4,3 +4,6 @@ alias g="git"
 alias gl="git pull"
 alias gcm='git checkout $(git remote show origin | sed -n "/HEAD branch/s/.*: //p")'
 alias gco="git checkout"
+alias gs="git stash"
+alias gsp="git stash pop"
+alias gupdate="git stash && gcm && git pull && git stash pop"
