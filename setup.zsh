@@ -18,3 +18,4 @@ eval "$(direnv hook zsh)"
 source ~/zsh-config/git.zsh
 source ~/zsh-config/go.zsh
 source ~/zsh-config/aws.zsh
+source ~/zsh-config/riddance.zsh
