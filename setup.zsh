@@ -19,3 +19,4 @@ source ~/zsh-config/git.zsh
 source ~/zsh-config/go.zsh
 source ~/zsh-config/aws.zsh
 source ~/zsh-config/riddance.zsh
+source ~/zsh-config/env.zsh
