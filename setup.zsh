@@ -11,6 +11,7 @@ export HISTSIZE=10000
 
 alias l="ls -la"
 alias t="terraform"
+alias m="mise"
 alias editenv="code ~/zsh-config"
 
 eval "$(direnv hook zsh)"
@@ -20,3 +21,4 @@ source ~/zsh-config/go.zsh
 source ~/zsh-config/aws.zsh
 source ~/zsh-config/riddance.zsh
 source ~/zsh-config/env.zsh
+source ~/zsh-config/mise.zsh
