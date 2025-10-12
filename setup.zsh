@@ -21,3 +21,4 @@ source ~/zsh-config/aws.zsh
 source ~/zsh-config/riddance.zsh
 source ~/zsh-config/env.zsh
 source ~/zsh-config/mise.zsh
+source ~/zsh-config/macos.zsh
