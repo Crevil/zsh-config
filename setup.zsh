@@ -12,6 +12,7 @@ alias editenv="code ~/zsh-config"
 
 eval "$(direnv hook zsh)"
 
+source ~/zsh-config/secret.zsh
 source ~/zsh-config/zsh.zsh
 source ~/zsh-config/git.zsh
 source ~/zsh-config/go.zsh
