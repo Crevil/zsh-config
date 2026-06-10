@@ -11,6 +11,7 @@ alias t="terraform"
 alias editenv="code ~/zsh-config"
 
 eval "$(direnv hook zsh)"
+eval "$(gitnow init zsh)"
 
 source ~/zsh-config/secret.zsh
 source ~/zsh-config/zsh.zsh
