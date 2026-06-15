@@ -9,6 +9,7 @@ export PATH="$HOME/.local/bin:$PATH"
 alias l="ls -la"
 alias t="terraform"
 alias editenv="code ~/zsh-config"
+alias c="claude"
 
 eval "$(direnv hook zsh)"
 eval "$(gitnow init zsh)"
