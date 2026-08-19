@@ -13,6 +13,7 @@ alias c="claude"
 
 eval "$(direnv hook zsh)"
 eval "$(gitnow init zsh)"
+eval "$(awslogin shell zsh)"
 
 source ~/zsh-config/secret.zsh
 source ~/zsh-config/zsh.zsh
